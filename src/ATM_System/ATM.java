@@ -9,7 +9,10 @@ abstract class pageneeded extends javax.swing.JFrame{
     abstract void dashboardpage();
     abstract void confirmpin();
     abstract void confirmamount();
+    abstract void confirmdamount();
     abstract void clearpin();
+    abstract void clearamount();
+    abstract void cleardamount();
     abstract void depositpage();
     abstract void transferpage();
     abstract void withdrawpage();
@@ -103,7 +106,7 @@ public class ATM extends pageneeded {
                 scrlab4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ATM_System/icons/confirmbox.png"))); 
              }
            }
-           if(currentpage=="withdraw") {
+           if((currentpage=="withdraw")||(currentpage=="deposit")) {
                
                if(i>-1 && i <10){
               if(amount==0){
@@ -159,6 +162,27 @@ public class ATM extends pageneeded {
     }
     
     @Override
+    void confirmdamount() {
+          if(amount>0){
+                       int newbal=cardlists[currentuser].balance+amount;
+                       cardlists[currentuser].setBal(newbal);
+                       
+               currentpage="balance";
+        maintext.setText("Hello "+cardlists[currentuser].name+", Your Deposit was successful.");
+        pintext.setText(""+cardlists[currentuser].balance);
+    scrlab1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ATM_System/icons/whitebg.png"))); 
+          scrlab2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ATM_System/icons/whitebg.png"))); 
+          scrlab3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ATM_System/icons/whitebg.png"))); 
+          scrlab4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ATM_System/icons/whitebg.png"))); 
+        pintext.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(102, 102, 102)));
+                scrlab2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ATM_System/icons/cancelbox.png"))); 
+        rectext.setText("Hello "+cardlists[currentuser].name+",\n\nAfter this transaction Your new Account\n Balance is:\n"+cardlists[currentuser].balance);
+          }else{
+          
+          }
+    }
+    
+    @Override
     void clearpin() {
         maintext.setText("Welcome "+cardlists[currentuser].name+", Please insert your pin");
         pin=0;
@@ -166,6 +190,10 @@ public class ATM extends pageneeded {
     }
 
     void clearamount() {
+        amount=0;
+        pintext.setText("");
+    }
+    void cleardamount() {
         amount=0;
         pintext.setText("");
     }
@@ -193,7 +221,21 @@ public class ATM extends pageneeded {
 
     @Override
     void depositpage() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        pintext.setText("");
+        amount=0;
+                scrlab1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ATM_System/icons/whitebg.png"))); 
+                scrlab2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ATM_System/icons/whitebg.png"))); 
+                scrlab3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ATM_System/icons/whitebg.png"))); 
+                scrlab4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ATM_System/icons/whitebg.png"))); 
+            System.out.println("running");
+           rectext.setText("");
+           maintext.setText("Enter Deposit Amount");
+           pintext.setText("");
+           currentpage="deposit";
+           pintext.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(102, 102, 102)));
+           scrlab2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ATM_System/icons/cancelbox.png"))); 
+           scrlab4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ATM_System/icons/confirmbox.png"))); 
+           
     }
 
     @Override
@@ -203,14 +245,15 @@ public class ATM extends pageneeded {
 
     @Override
     void withdrawpage() {
-        
+         pintext.setText("");
+        amount=0;
                 scrlab1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ATM_System/icons/whitebg.png"))); 
                 scrlab2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ATM_System/icons/whitebg.png"))); 
                 scrlab3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ATM_System/icons/whitebg.png"))); 
                 scrlab4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ATM_System/icons/whitebg.png"))); 
             System.out.println("running");
            rectext.setText("");
-           maintext.setText("Enter Amount");
+           maintext.setText("Enter Withdrawal Amount");
            pintext.setText("");
            currentpage="withdraw";
            pintext.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(102, 102, 102)));
@@ -328,12 +371,10 @@ public class ATM extends pageneeded {
 
         pintext.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         pintext.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        pintext.setText("jTextField1");
         pintext.setBorder(null);
 
         maintext.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         maintext.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        maintext.setText("jTextField2");
         maintext.setBorder(null);
         maintext.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -461,6 +502,11 @@ public class ATM extends pageneeded {
 
         btn3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ATM_System/icons/small.jpg"))); // NOI18N
         btn3.setMargin(new java.awt.Insets(0, 0, 0, 0));
+        btn3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn3ActionPerformed(evt);
+            }
+        });
 
         btn4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ATM_System/icons/small.jpg"))); // NOI18N
         btn4.setMargin(new java.awt.Insets(0, 0, 0, 0));
@@ -864,13 +910,10 @@ public class ATM extends pageneeded {
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 41, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(cardlist, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(reciptarea, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                    .addComponent(cardlist, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(reciptarea, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
@@ -968,6 +1011,8 @@ public class ATM extends pageneeded {
            confirmpin();
        }else if(currentpage=="withdraw") {
            confirmamount();
+       }else if(currentpage=="deposit") {
+           confirmdamount();
        }
     }//GEN-LAST:event_action1ActionPerformed
 
@@ -995,6 +1040,8 @@ public class ATM extends pageneeded {
        }else if(currentpage=="balance") {
            dashboardpage();
        }  else if(currentpage=="withdraw") {
+           dashboardpage();
+       }   else if(currentpage=="deposit") {
            dashboardpage();
        }  
     }//GEN-LAST:event_btn4ActionPerformed
@@ -1050,6 +1097,8 @@ public class ATM extends pageneeded {
            balancepage();
        }else if(currentpage=="withdraw") {
            confirmamount();
+       }else if(currentpage=="deposit") {
+           confirmdamount();
        }
     }//GEN-LAST:event_btn8ActionPerformed
 
@@ -1058,8 +1107,16 @@ public class ATM extends pageneeded {
             clearpin();
     }else if(currentpage=="withdraw") {
             clearamount();
+    }else if(currentpage=="deposit") {
+            cleardamount();
     }          
     }//GEN-LAST:event_action2ActionPerformed
+
+    private void btn3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn3ActionPerformed
+        if(currentpage=="dashboard") {
+           depositpage();
+       }
+    }//GEN-LAST:event_btn3ActionPerformed
 
 
 
