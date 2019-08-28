@@ -187,10 +187,10 @@
                   <Group type="102" attributes="0">
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="jButton5" min="-2" pref="90" max="-2" attributes="0"/>
-                          <Component id="jButton6" alignment="0" min="-2" pref="90" max="-2" attributes="0"/>
-                          <Component id="jButton7" min="-2" pref="90" max="-2" attributes="0"/>
-                          <Component id="jButton8" alignment="0" min="-2" pref="90" max="-2" attributes="0"/>
+                          <Component id="btn1" min="-2" pref="90" max="-2" attributes="0"/>
+                          <Component id="btn2" alignment="0" min="-2" pref="90" max="-2" attributes="0"/>
+                          <Component id="btn3" min="-2" pref="90" max="-2" attributes="0"/>
+                          <Component id="btn4" alignment="0" min="-2" pref="90" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                   </Group>
@@ -200,20 +200,20 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jButton5" min="-2" pref="40" max="-2" attributes="0"/>
+                      <Component id="btn1" min="-2" pref="40" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jButton6" min="-2" pref="40" max="-2" attributes="0"/>
+                      <Component id="btn2" min="-2" pref="40" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jButton7" min="-2" pref="40" max="-2" attributes="0"/>
+                      <Component id="btn3" min="-2" pref="40" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jButton8" min="-2" pref="40" max="-2" attributes="0"/>
+                      <Component id="btn4" min="-2" pref="40" max="-2" attributes="0"/>
                       <EmptySpace max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
           </Layout>
           <SubComponents>
-            <Component class="javax.swing.JButton" name="jButton5">
+            <Component class="javax.swing.JButton" name="btn1">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
                   <Image iconType="3" name="/ATM_System/icons/small.jpg"/>
@@ -223,7 +223,7 @@
                 </Property>
               </Properties>
             </Component>
-            <Component class="javax.swing.JButton" name="jButton6">
+            <Component class="javax.swing.JButton" name="btn2">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
                   <Image iconType="3" name="/ATM_System/icons/small.jpg"/>
@@ -233,7 +233,7 @@
                 </Property>
               </Properties>
             </Component>
-            <Component class="javax.swing.JButton" name="jButton7">
+            <Component class="javax.swing.JButton" name="btn3">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
                   <Image iconType="3" name="/ATM_System/icons/small.jpg"/>
@@ -243,7 +243,7 @@
                 </Property>
               </Properties>
             </Component>
-            <Component class="javax.swing.JButton" name="jButton8">
+            <Component class="javax.swing.JButton" name="btn4">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
                   <Image iconType="3" name="/ATM_System/icons/small.jpg"/>
@@ -276,40 +276,40 @@
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" alignment="0" attributes="0">
-                              <Component id="jButton1" min="-2" pref="91" max="-2" attributes="0"/>
+                              <Component id="btnnum1" min="-2" pref="91" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
-                              <Component id="jButton2" min="-2" pref="91" max="-2" attributes="0"/>
+                              <Component id="btnnum2" min="-2" pref="91" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
-                              <Component id="jButton3" min="-2" pref="91" max="-2" attributes="0"/>
+                              <Component id="btnnum3" min="-2" pref="91" max="-2" attributes="0"/>
                               <EmptySpace pref="59" max="32767" attributes="0"/>
-                              <Component id="jButton4" min="-2" pref="112" max="-2" attributes="0"/>
+                              <Component id="action1" min="-2" pref="112" max="-2" attributes="0"/>
                           </Group>
                           <Group type="102" attributes="0">
-                              <Component id="jButton21" min="-2" pref="91" max="-2" attributes="0"/>
+                              <Component id="btnnumminus" min="-2" pref="91" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
-                              <Component id="jButton22" min="-2" pref="91" max="-2" attributes="0"/>
+                              <Component id="btnnum0" min="-2" pref="91" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
-                              <Component id="jButton23" min="-2" pref="91" max="-2" attributes="0"/>
+                              <Component id="btnnumplus" min="-2" pref="91" max="-2" attributes="0"/>
                               <EmptySpace max="32767" attributes="0"/>
-                              <Component id="jButton24" min="-2" pref="112" max="-2" attributes="0"/>
+                              <Component id="action4" min="-2" pref="112" max="-2" attributes="0"/>
                           </Group>
                           <Group type="102" alignment="0" attributes="0">
-                              <Component id="jButton13" min="-2" pref="91" max="-2" attributes="0"/>
+                              <Component id="btnnum4" min="-2" pref="91" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
-                              <Component id="jButton14" min="-2" pref="91" max="-2" attributes="0"/>
+                              <Component id="btnnum5" min="-2" pref="91" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
-                              <Component id="jButton15" min="-2" pref="91" max="-2" attributes="0"/>
+                              <Component id="btnnum6" min="-2" pref="91" max="-2" attributes="0"/>
                               <EmptySpace max="32767" attributes="0"/>
-                              <Component id="jButton16" min="-2" pref="112" max="-2" attributes="0"/>
+                              <Component id="action2" min="-2" pref="112" max="-2" attributes="0"/>
                           </Group>
                           <Group type="102" alignment="0" attributes="0">
-                              <Component id="jButton17" min="-2" pref="91" max="-2" attributes="0"/>
+                              <Component id="btnnum7" min="-2" pref="91" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
-                              <Component id="jButton18" min="-2" pref="91" max="-2" attributes="0"/>
+                              <Component id="btnnum8" min="-2" pref="91" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
-                              <Component id="jButton19" min="-2" pref="91" max="-2" attributes="0"/>
+                              <Component id="btnnum9" min="-2" pref="91" max="-2" attributes="0"/>
                               <EmptySpace max="32767" attributes="0"/>
-                              <Component id="jButton20" min="-2" pref="112" max="-2" attributes="0"/>
+                              <Component id="action3" min="-2" pref="112" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
@@ -321,31 +321,31 @@
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                          <Component id="jButton1" min="-2" pref="66" max="-2" attributes="0"/>
-                          <Component id="jButton2" alignment="0" min="-2" pref="66" max="-2" attributes="0"/>
-                          <Component id="jButton3" alignment="0" min="-2" pref="66" max="-2" attributes="0"/>
-                          <Component id="jButton4" alignment="0" min="-2" pref="66" max="-2" attributes="0"/>
+                          <Component id="btnnum1" min="-2" pref="66" max="-2" attributes="0"/>
+                          <Component id="btnnum2" alignment="0" min="-2" pref="66" max="-2" attributes="0"/>
+                          <Component id="btnnum3" alignment="0" min="-2" pref="66" max="-2" attributes="0"/>
+                          <Component id="action1" alignment="0" min="-2" pref="66" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="jButton13" alignment="3" min="-2" pref="66" max="-2" attributes="0"/>
-                          <Component id="jButton14" alignment="3" min="-2" pref="66" max="-2" attributes="0"/>
-                          <Component id="jButton15" alignment="3" min="-2" pref="66" max="-2" attributes="0"/>
-                          <Component id="jButton16" alignment="3" min="-2" pref="66" max="-2" attributes="0"/>
+                          <Component id="btnnum4" alignment="3" min="-2" pref="66" max="-2" attributes="0"/>
+                          <Component id="btnnum5" alignment="3" min="-2" pref="66" max="-2" attributes="0"/>
+                          <Component id="btnnum6" alignment="3" min="-2" pref="66" max="-2" attributes="0"/>
+                          <Component id="action2" alignment="3" min="-2" pref="66" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="jButton17" alignment="3" min="-2" pref="66" max="-2" attributes="0"/>
-                          <Component id="jButton18" alignment="3" min="-2" pref="66" max="-2" attributes="0"/>
-                          <Component id="jButton19" alignment="3" min="-2" pref="66" max="-2" attributes="0"/>
-                          <Component id="jButton20" alignment="3" min="-2" pref="66" max="-2" attributes="0"/>
+                          <Component id="btnnum7" alignment="3" min="-2" pref="66" max="-2" attributes="0"/>
+                          <Component id="btnnum8" alignment="3" min="-2" pref="66" max="-2" attributes="0"/>
+                          <Component id="btnnum9" alignment="3" min="-2" pref="66" max="-2" attributes="0"/>
+                          <Component id="action3" alignment="3" min="-2" pref="66" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="jButton21" alignment="3" min="-2" pref="66" max="-2" attributes="0"/>
-                          <Component id="jButton22" alignment="3" min="-2" pref="66" max="-2" attributes="0"/>
-                          <Component id="jButton23" alignment="3" min="-2" pref="66" max="-2" attributes="0"/>
-                          <Component id="jButton24" alignment="3" min="-2" pref="66" max="-2" attributes="0"/>
+                          <Component id="btnnumminus" alignment="3" min="-2" pref="66" max="-2" attributes="0"/>
+                          <Component id="btnnum0" alignment="3" min="-2" pref="66" max="-2" attributes="0"/>
+                          <Component id="btnnumplus" alignment="3" min="-2" pref="66" max="-2" attributes="0"/>
+                          <Component id="action4" alignment="3" min="-2" pref="66" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace max="32767" attributes="0"/>
                   </Group>
@@ -353,7 +353,7 @@
             </DimensionLayout>
           </Layout>
           <SubComponents>
-            <Component class="javax.swing.JButton" name="jButton1">
+            <Component class="javax.swing.JButton" name="btnnum1">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
                   <Image iconType="3" name="/ATM_System/icons/1.jpg"/>
@@ -363,10 +363,10 @@
                 </Property>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnnum1ActionPerformed"/>
               </Events>
             </Component>
-            <Component class="javax.swing.JButton" name="jButton2">
+            <Component class="javax.swing.JButton" name="btnnum2">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
                   <Image iconType="3" name="/ATM_System/icons/2.jpg"/>
@@ -376,10 +376,10 @@
                 </Property>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton2ActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnnum2ActionPerformed"/>
               </Events>
             </Component>
-            <Component class="javax.swing.JButton" name="jButton3">
+            <Component class="javax.swing.JButton" name="btnnum3">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
                   <Image iconType="3" name="/ATM_System/icons/3.jpg"/>
@@ -389,7 +389,7 @@
                 </Property>
               </Properties>
             </Component>
-            <Component class="javax.swing.JButton" name="jButton4">
+            <Component class="javax.swing.JButton" name="action1">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
                   <Image iconType="3" name="/ATM_System/icons/enter.jpg"/>
@@ -399,10 +399,10 @@
                 </Property>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton4ActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="action1ActionPerformed"/>
               </Events>
             </Component>
-            <Component class="javax.swing.JButton" name="jButton13">
+            <Component class="javax.swing.JButton" name="btnnum4">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
                   <Image iconType="3" name="/ATM_System/icons/4.jpg"/>
@@ -412,7 +412,7 @@
                 </Property>
               </Properties>
             </Component>
-            <Component class="javax.swing.JButton" name="jButton14">
+            <Component class="javax.swing.JButton" name="btnnum5">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
                   <Image iconType="3" name="/ATM_System/icons/5.jpg"/>
@@ -422,7 +422,7 @@
                 </Property>
               </Properties>
             </Component>
-            <Component class="javax.swing.JButton" name="jButton15">
+            <Component class="javax.swing.JButton" name="btnnum6">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
                   <Image iconType="3" name="/ATM_System/icons/6.jpg"/>
@@ -432,7 +432,7 @@
                 </Property>
               </Properties>
             </Component>
-            <Component class="javax.swing.JButton" name="jButton16">
+            <Component class="javax.swing.JButton" name="action2">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
                   <Image iconType="3" name="/ATM_System/icons/clear.jpg"/>
@@ -442,7 +442,7 @@
                 </Property>
               </Properties>
             </Component>
-            <Component class="javax.swing.JButton" name="jButton17">
+            <Component class="javax.swing.JButton" name="btnnum7">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
                   <Image iconType="3" name="/ATM_System/icons/7.jpg"/>
@@ -452,10 +452,10 @@
                 </Property>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton17ActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnnum7ActionPerformed"/>
               </Events>
             </Component>
-            <Component class="javax.swing.JButton" name="jButton18">
+            <Component class="javax.swing.JButton" name="btnnum8">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
                   <Image iconType="3" name="/ATM_System/icons/8.jpg"/>
@@ -465,7 +465,7 @@
                 </Property>
               </Properties>
             </Component>
-            <Component class="javax.swing.JButton" name="jButton19">
+            <Component class="javax.swing.JButton" name="btnnum9">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
                   <Image iconType="3" name="/ATM_System/icons/9.jpg"/>
@@ -475,7 +475,7 @@
                 </Property>
               </Properties>
             </Component>
-            <Component class="javax.swing.JButton" name="jButton20">
+            <Component class="javax.swing.JButton" name="action3">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
                   <Image iconType="3" name="/ATM_System/icons/cancel.jpg"/>
@@ -485,7 +485,7 @@
                 </Property>
               </Properties>
             </Component>
-            <Component class="javax.swing.JButton" name="jButton21">
+            <Component class="javax.swing.JButton" name="btnnumminus">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
                   <Image iconType="3" name="/ATM_System/icons/left.jpg"/>
@@ -495,10 +495,10 @@
                 </Property>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton21ActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnnumminusActionPerformed"/>
               </Events>
             </Component>
-            <Component class="javax.swing.JButton" name="jButton22">
+            <Component class="javax.swing.JButton" name="btnnum0">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
                   <Image iconType="3" name="/ATM_System/icons/0.jpg"/>
@@ -508,10 +508,10 @@
                 </Property>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton22ActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnnum0ActionPerformed"/>
               </Events>
             </Component>
-            <Component class="javax.swing.JButton" name="jButton23">
+            <Component class="javax.swing.JButton" name="btnnumplus">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
                   <Image iconType="3" name="/ATM_System/icons/right.jpg"/>
@@ -521,10 +521,10 @@
                 </Property>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton23ActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnnumplusActionPerformed"/>
               </Events>
             </Component>
-            <Component class="javax.swing.JButton" name="jButton24">
+            <Component class="javax.swing.JButton" name="action4">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
                   <Image iconType="3" name="/ATM_System/icons/empty.jpg"/>
@@ -534,7 +534,7 @@
                 </Property>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton24ActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="action4ActionPerformed"/>
               </Events>
             </Component>
           </SubComponents>
@@ -559,10 +559,10 @@
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="jButton9" alignment="0" min="-2" pref="90" max="-2" attributes="0"/>
-                          <Component id="jButton10" alignment="0" min="-2" pref="90" max="-2" attributes="0"/>
-                          <Component id="jButton11" alignment="0" min="-2" pref="90" max="-2" attributes="0"/>
-                          <Component id="jButton12" alignment="0" min="-2" pref="90" max="-2" attributes="0"/>
+                          <Component id="btn5" alignment="0" min="-2" pref="90" max="-2" attributes="0"/>
+                          <Component id="btn6" alignment="0" min="-2" pref="90" max="-2" attributes="0"/>
+                          <Component id="btn7" alignment="0" min="-2" pref="90" max="-2" attributes="0"/>
+                          <Component id="btn8" alignment="0" min="-2" pref="90" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                   </Group>
@@ -572,20 +572,33 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jButton9" min="-2" pref="40" max="-2" attributes="0"/>
+                      <Component id="btn5" min="-2" pref="40" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jButton10" min="-2" pref="40" max="-2" attributes="0"/>
+                      <Component id="btn6" min="-2" pref="40" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jButton11" min="-2" pref="40" max="-2" attributes="0"/>
+                      <Component id="btn7" min="-2" pref="40" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jButton12" min="-2" pref="40" max="-2" attributes="0"/>
+                      <Component id="btn8" min="-2" pref="40" max="-2" attributes="0"/>
                       <EmptySpace max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
           </Layout>
           <SubComponents>
-            <Component class="javax.swing.JButton" name="jButton9">
+            <Component class="javax.swing.JButton" name="btn5">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/ATM_System/icons/small.jpg"/>
+                </Property>
+                <Property name="margin" type="java.awt.Insets" editor="org.netbeans.beaninfo.editors.InsetsEditor">
+                  <Insets value="[0, 0, 0, 0]"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn5ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="btn6">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
                   <Image iconType="3" name="/ATM_System/icons/small.jpg"/>
@@ -595,7 +608,7 @@
                 </Property>
               </Properties>
             </Component>
-            <Component class="javax.swing.JButton" name="jButton10">
+            <Component class="javax.swing.JButton" name="btn7">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
                   <Image iconType="3" name="/ATM_System/icons/small.jpg"/>
@@ -605,17 +618,7 @@
                 </Property>
               </Properties>
             </Component>
-            <Component class="javax.swing.JButton" name="jButton11">
-              <Properties>
-                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/ATM_System/icons/small.jpg"/>
-                </Property>
-                <Property name="margin" type="java.awt.Insets" editor="org.netbeans.beaninfo.editors.InsetsEditor">
-                  <Insets value="[0, 0, 0, 0]"/>
-                </Property>
-              </Properties>
-            </Component>
-            <Component class="javax.swing.JButton" name="jButton12">
+            <Component class="javax.swing.JButton" name="btn8">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
                   <Image iconType="3" name="/ATM_System/icons/small.jpg"/>

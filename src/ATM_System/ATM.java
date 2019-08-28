@@ -31,32 +31,32 @@ public class ATM extends javax.swing.JFrame {
         jPanel2 = new javax.swing.JPanel();
         jPanel4 = new javax.swing.JPanel();
         jPanel5 = new javax.swing.JPanel();
-        jButton5 = new javax.swing.JButton();
-        jButton6 = new javax.swing.JButton();
-        jButton7 = new javax.swing.JButton();
-        jButton8 = new javax.swing.JButton();
+        btn1 = new javax.swing.JButton();
+        btn2 = new javax.swing.JButton();
+        btn3 = new javax.swing.JButton();
+        btn4 = new javax.swing.JButton();
         jPanel7 = new javax.swing.JPanel();
-        jButton1 = new javax.swing.JButton();
-        jButton2 = new javax.swing.JButton();
-        jButton3 = new javax.swing.JButton();
-        jButton4 = new javax.swing.JButton();
-        jButton13 = new javax.swing.JButton();
-        jButton14 = new javax.swing.JButton();
-        jButton15 = new javax.swing.JButton();
-        jButton16 = new javax.swing.JButton();
-        jButton17 = new javax.swing.JButton();
-        jButton18 = new javax.swing.JButton();
-        jButton19 = new javax.swing.JButton();
-        jButton20 = new javax.swing.JButton();
-        jButton21 = new javax.swing.JButton();
-        jButton22 = new javax.swing.JButton();
-        jButton23 = new javax.swing.JButton();
-        jButton24 = new javax.swing.JButton();
+        btnnum1 = new javax.swing.JButton();
+        btnnum2 = new javax.swing.JButton();
+        btnnum3 = new javax.swing.JButton();
+        action1 = new javax.swing.JButton();
+        btnnum4 = new javax.swing.JButton();
+        btnnum5 = new javax.swing.JButton();
+        btnnum6 = new javax.swing.JButton();
+        action2 = new javax.swing.JButton();
+        btnnum7 = new javax.swing.JButton();
+        btnnum8 = new javax.swing.JButton();
+        btnnum9 = new javax.swing.JButton();
+        action3 = new javax.swing.JButton();
+        btnnumminus = new javax.swing.JButton();
+        btnnum0 = new javax.swing.JButton();
+        btnnumplus = new javax.swing.JButton();
+        action4 = new javax.swing.JButton();
         jPanel8 = new javax.swing.JPanel();
-        jButton9 = new javax.swing.JButton();
-        jButton10 = new javax.swing.JButton();
-        jButton11 = new javax.swing.JButton();
-        jButton12 = new javax.swing.JButton();
+        btn5 = new javax.swing.JButton();
+        btn6 = new javax.swing.JButton();
+        btn7 = new javax.swing.JButton();
+        btn8 = new javax.swing.JButton();
         jPanel3 = new javax.swing.JPanel();
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
@@ -66,7 +66,7 @@ public class ATM extends javax.swing.JFrame {
         setMinimumSize(new java.awt.Dimension(1135, 616));
         setResizable(false);
 
-        jPanel1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        jPanel1.setBorder(javax.swing.BorderFactory.createLineBorder(null));
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -80,7 +80,7 @@ public class ATM extends javax.swing.JFrame {
         );
 
         jPanel2.setBackground(new java.awt.Color(102, 102, 102));
-        jPanel2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        jPanel2.setBorder(javax.swing.BorderFactory.createLineBorder(null));
 
         jPanel4.setBackground(new java.awt.Color(255, 255, 255));
         jPanel4.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(102, 102, 102)));
@@ -99,17 +99,17 @@ public class ATM extends javax.swing.JFrame {
         jPanel5.setBackground(new java.awt.Color(204, 204, 204));
         jPanel5.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(102, 102, 102)));
 
-        jButton5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ATM_System/icons/small.jpg"))); // NOI18N
-        jButton5.setMargin(new java.awt.Insets(0, 0, 0, 0));
+        btn1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ATM_System/icons/small.jpg"))); // NOI18N
+        btn1.setMargin(new java.awt.Insets(0, 0, 0, 0));
 
-        jButton6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ATM_System/icons/small.jpg"))); // NOI18N
-        jButton6.setMargin(new java.awt.Insets(0, 0, 0, 0));
+        btn2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ATM_System/icons/small.jpg"))); // NOI18N
+        btn2.setMargin(new java.awt.Insets(0, 0, 0, 0));
 
-        jButton7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ATM_System/icons/small.jpg"))); // NOI18N
-        jButton7.setMargin(new java.awt.Insets(0, 0, 0, 0));
+        btn3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ATM_System/icons/small.jpg"))); // NOI18N
+        btn3.setMargin(new java.awt.Insets(0, 0, 0, 0));
 
-        jButton8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ATM_System/icons/small.jpg"))); // NOI18N
-        jButton8.setMargin(new java.awt.Insets(0, 0, 0, 0));
+        btn4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ATM_System/icons/small.jpg"))); // NOI18N
+        btn4.setMargin(new java.awt.Insets(0, 0, 0, 0));
 
         javax.swing.GroupLayout jPanel5Layout = new javax.swing.GroupLayout(jPanel5);
         jPanel5.setLayout(jPanel5Layout);
@@ -118,114 +118,114 @@ public class ATM extends javax.swing.JFrame {
             .addGroup(jPanel5Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jButton5, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton6, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton7, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton8, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(btn1, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btn2, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btn3, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btn4, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap())
         );
         jPanel5Layout.setVerticalGroup(
             jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel5Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jButton5, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(btn1, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jButton6, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(btn2, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jButton7, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(btn3, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jButton8, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(btn4, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         jPanel7.setBackground(new java.awt.Color(204, 204, 204));
         jPanel7.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(102, 102, 102)));
 
-        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ATM_System/icons/1.jpg"))); // NOI18N
-        jButton1.setMargin(new java.awt.Insets(0, 0, 0, 0));
-        jButton1.addActionListener(new java.awt.event.ActionListener() {
+        btnnum1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ATM_System/icons/1.jpg"))); // NOI18N
+        btnnum1.setMargin(new java.awt.Insets(0, 0, 0, 0));
+        btnnum1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton1ActionPerformed(evt);
+                btnnum1ActionPerformed(evt);
             }
         });
 
-        jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ATM_System/icons/2.jpg"))); // NOI18N
-        jButton2.setMargin(new java.awt.Insets(0, 0, 0, 0));
-        jButton2.addActionListener(new java.awt.event.ActionListener() {
+        btnnum2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ATM_System/icons/2.jpg"))); // NOI18N
+        btnnum2.setMargin(new java.awt.Insets(0, 0, 0, 0));
+        btnnum2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton2ActionPerformed(evt);
+                btnnum2ActionPerformed(evt);
             }
         });
 
-        jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ATM_System/icons/3.jpg"))); // NOI18N
-        jButton3.setMargin(new java.awt.Insets(0, 0, 0, 0));
+        btnnum3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ATM_System/icons/3.jpg"))); // NOI18N
+        btnnum3.setMargin(new java.awt.Insets(0, 0, 0, 0));
 
-        jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ATM_System/icons/enter.jpg"))); // NOI18N
-        jButton4.setMargin(new java.awt.Insets(0, 0, 0, 0));
-        jButton4.addActionListener(new java.awt.event.ActionListener() {
+        action1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ATM_System/icons/enter.jpg"))); // NOI18N
+        action1.setMargin(new java.awt.Insets(0, 0, 0, 0));
+        action1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton4ActionPerformed(evt);
+                action1ActionPerformed(evt);
             }
         });
 
-        jButton13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ATM_System/icons/4.jpg"))); // NOI18N
-        jButton13.setMargin(new java.awt.Insets(0, 0, 0, 0));
+        btnnum4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ATM_System/icons/4.jpg"))); // NOI18N
+        btnnum4.setMargin(new java.awt.Insets(0, 0, 0, 0));
 
-        jButton14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ATM_System/icons/5.jpg"))); // NOI18N
-        jButton14.setMargin(new java.awt.Insets(0, 0, 0, 0));
+        btnnum5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ATM_System/icons/5.jpg"))); // NOI18N
+        btnnum5.setMargin(new java.awt.Insets(0, 0, 0, 0));
 
-        jButton15.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ATM_System/icons/6.jpg"))); // NOI18N
-        jButton15.setMargin(new java.awt.Insets(0, 0, 0, 0));
+        btnnum6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ATM_System/icons/6.jpg"))); // NOI18N
+        btnnum6.setMargin(new java.awt.Insets(0, 0, 0, 0));
 
-        jButton16.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ATM_System/icons/clear.jpg"))); // NOI18N
-        jButton16.setMargin(new java.awt.Insets(0, 0, 0, 0));
+        action2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ATM_System/icons/clear.jpg"))); // NOI18N
+        action2.setMargin(new java.awt.Insets(0, 0, 0, 0));
 
-        jButton17.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ATM_System/icons/7.jpg"))); // NOI18N
-        jButton17.setMargin(new java.awt.Insets(0, 0, 0, 0));
-        jButton17.addActionListener(new java.awt.event.ActionListener() {
+        btnnum7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ATM_System/icons/7.jpg"))); // NOI18N
+        btnnum7.setMargin(new java.awt.Insets(0, 0, 0, 0));
+        btnnum7.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton17ActionPerformed(evt);
+                btnnum7ActionPerformed(evt);
             }
         });
 
-        jButton18.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ATM_System/icons/8.jpg"))); // NOI18N
-        jButton18.setMargin(new java.awt.Insets(0, 0, 0, 0));
+        btnnum8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ATM_System/icons/8.jpg"))); // NOI18N
+        btnnum8.setMargin(new java.awt.Insets(0, 0, 0, 0));
 
-        jButton19.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ATM_System/icons/9.jpg"))); // NOI18N
-        jButton19.setMargin(new java.awt.Insets(0, 0, 0, 0));
+        btnnum9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ATM_System/icons/9.jpg"))); // NOI18N
+        btnnum9.setMargin(new java.awt.Insets(0, 0, 0, 0));
 
-        jButton20.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ATM_System/icons/cancel.jpg"))); // NOI18N
-        jButton20.setMargin(new java.awt.Insets(0, 0, 0, 0));
+        action3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ATM_System/icons/cancel.jpg"))); // NOI18N
+        action3.setMargin(new java.awt.Insets(0, 0, 0, 0));
 
-        jButton21.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ATM_System/icons/left.jpg"))); // NOI18N
-        jButton21.setMargin(new java.awt.Insets(0, 0, 0, 0));
-        jButton21.addActionListener(new java.awt.event.ActionListener() {
+        btnnumminus.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ATM_System/icons/left.jpg"))); // NOI18N
+        btnnumminus.setMargin(new java.awt.Insets(0, 0, 0, 0));
+        btnnumminus.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton21ActionPerformed(evt);
+                btnnumminusActionPerformed(evt);
             }
         });
 
-        jButton22.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ATM_System/icons/0.jpg"))); // NOI18N
-        jButton22.setMargin(new java.awt.Insets(0, 0, 0, 0));
-        jButton22.addActionListener(new java.awt.event.ActionListener() {
+        btnnum0.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ATM_System/icons/0.jpg"))); // NOI18N
+        btnnum0.setMargin(new java.awt.Insets(0, 0, 0, 0));
+        btnnum0.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton22ActionPerformed(evt);
+                btnnum0ActionPerformed(evt);
             }
         });
 
-        jButton23.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ATM_System/icons/right.jpg"))); // NOI18N
-        jButton23.setMargin(new java.awt.Insets(0, 0, 0, 0));
-        jButton23.addActionListener(new java.awt.event.ActionListener() {
+        btnnumplus.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ATM_System/icons/right.jpg"))); // NOI18N
+        btnnumplus.setMargin(new java.awt.Insets(0, 0, 0, 0));
+        btnnumplus.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton23ActionPerformed(evt);
+                btnnumplusActionPerformed(evt);
             }
         });
 
-        jButton24.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ATM_System/icons/empty.jpg"))); // NOI18N
-        jButton24.setMargin(new java.awt.Insets(0, 0, 0, 0));
-        jButton24.addActionListener(new java.awt.event.ActionListener() {
+        action4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ATM_System/icons/empty.jpg"))); // NOI18N
+        action4.setMargin(new java.awt.Insets(0, 0, 0, 0));
+        action4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton24ActionPerformed(evt);
+                action4ActionPerformed(evt);
             }
         });
 
@@ -237,37 +237,37 @@ public class ATM extends javax.swing.JFrame {
                 .addContainerGap()
                 .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel7Layout.createSequentialGroup()
-                        .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 91, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(btnnum1, javax.swing.GroupLayout.PREFERRED_SIZE, 91, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 91, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(btnnum2, javax.swing.GroupLayout.PREFERRED_SIZE, 91, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 91, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(btnnum3, javax.swing.GroupLayout.PREFERRED_SIZE, 91, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 59, Short.MAX_VALUE)
-                        .addComponent(jButton4, javax.swing.GroupLayout.PREFERRED_SIZE, 112, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(action1, javax.swing.GroupLayout.PREFERRED_SIZE, 112, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(jPanel7Layout.createSequentialGroup()
-                        .addComponent(jButton21, javax.swing.GroupLayout.PREFERRED_SIZE, 91, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(btnnumminus, javax.swing.GroupLayout.PREFERRED_SIZE, 91, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jButton22, javax.swing.GroupLayout.PREFERRED_SIZE, 91, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(btnnum0, javax.swing.GroupLayout.PREFERRED_SIZE, 91, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jButton23, javax.swing.GroupLayout.PREFERRED_SIZE, 91, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(btnnumplus, javax.swing.GroupLayout.PREFERRED_SIZE, 91, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(jButton24, javax.swing.GroupLayout.PREFERRED_SIZE, 112, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(action4, javax.swing.GroupLayout.PREFERRED_SIZE, 112, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(jPanel7Layout.createSequentialGroup()
-                        .addComponent(jButton13, javax.swing.GroupLayout.PREFERRED_SIZE, 91, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(btnnum4, javax.swing.GroupLayout.PREFERRED_SIZE, 91, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jButton14, javax.swing.GroupLayout.PREFERRED_SIZE, 91, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(btnnum5, javax.swing.GroupLayout.PREFERRED_SIZE, 91, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jButton15, javax.swing.GroupLayout.PREFERRED_SIZE, 91, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(btnnum6, javax.swing.GroupLayout.PREFERRED_SIZE, 91, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(jButton16, javax.swing.GroupLayout.PREFERRED_SIZE, 112, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(action2, javax.swing.GroupLayout.PREFERRED_SIZE, 112, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(jPanel7Layout.createSequentialGroup()
-                        .addComponent(jButton17, javax.swing.GroupLayout.PREFERRED_SIZE, 91, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(btnnum7, javax.swing.GroupLayout.PREFERRED_SIZE, 91, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jButton18, javax.swing.GroupLayout.PREFERRED_SIZE, 91, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(btnnum8, javax.swing.GroupLayout.PREFERRED_SIZE, 91, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jButton19, javax.swing.GroupLayout.PREFERRED_SIZE, 91, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(btnnum9, javax.swing.GroupLayout.PREFERRED_SIZE, 91, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(jButton20, javax.swing.GroupLayout.PREFERRED_SIZE, 112, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(action3, javax.swing.GroupLayout.PREFERRED_SIZE, 112, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap())
         );
         jPanel7Layout.setVerticalGroup(
@@ -275,45 +275,50 @@ public class ATM extends javax.swing.JFrame {
             .addGroup(jPanel7Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 66, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 66, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 66, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton4, javax.swing.GroupLayout.PREFERRED_SIZE, 66, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(btnnum1, javax.swing.GroupLayout.PREFERRED_SIZE, 66, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnnum2, javax.swing.GroupLayout.PREFERRED_SIZE, 66, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnnum3, javax.swing.GroupLayout.PREFERRED_SIZE, 66, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(action1, javax.swing.GroupLayout.PREFERRED_SIZE, 66, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jButton13, javax.swing.GroupLayout.PREFERRED_SIZE, 66, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton14, javax.swing.GroupLayout.PREFERRED_SIZE, 66, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton15, javax.swing.GroupLayout.PREFERRED_SIZE, 66, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton16, javax.swing.GroupLayout.PREFERRED_SIZE, 66, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(btnnum4, javax.swing.GroupLayout.PREFERRED_SIZE, 66, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnnum5, javax.swing.GroupLayout.PREFERRED_SIZE, 66, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnnum6, javax.swing.GroupLayout.PREFERRED_SIZE, 66, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(action2, javax.swing.GroupLayout.PREFERRED_SIZE, 66, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jButton17, javax.swing.GroupLayout.PREFERRED_SIZE, 66, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton18, javax.swing.GroupLayout.PREFERRED_SIZE, 66, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton19, javax.swing.GroupLayout.PREFERRED_SIZE, 66, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton20, javax.swing.GroupLayout.PREFERRED_SIZE, 66, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(btnnum7, javax.swing.GroupLayout.PREFERRED_SIZE, 66, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnnum8, javax.swing.GroupLayout.PREFERRED_SIZE, 66, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnnum9, javax.swing.GroupLayout.PREFERRED_SIZE, 66, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(action3, javax.swing.GroupLayout.PREFERRED_SIZE, 66, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jButton21, javax.swing.GroupLayout.PREFERRED_SIZE, 66, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton22, javax.swing.GroupLayout.PREFERRED_SIZE, 66, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton23, javax.swing.GroupLayout.PREFERRED_SIZE, 66, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton24, javax.swing.GroupLayout.PREFERRED_SIZE, 66, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(btnnumminus, javax.swing.GroupLayout.PREFERRED_SIZE, 66, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnnum0, javax.swing.GroupLayout.PREFERRED_SIZE, 66, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnnumplus, javax.swing.GroupLayout.PREFERRED_SIZE, 66, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(action4, javax.swing.GroupLayout.PREFERRED_SIZE, 66, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         jPanel8.setBackground(new java.awt.Color(204, 204, 204));
         jPanel8.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(102, 102, 102)));
 
-        jButton9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ATM_System/icons/small.jpg"))); // NOI18N
-        jButton9.setMargin(new java.awt.Insets(0, 0, 0, 0));
+        btn5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ATM_System/icons/small.jpg"))); // NOI18N
+        btn5.setMargin(new java.awt.Insets(0, 0, 0, 0));
+        btn5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn5ActionPerformed(evt);
+            }
+        });
 
-        jButton10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ATM_System/icons/small.jpg"))); // NOI18N
-        jButton10.setMargin(new java.awt.Insets(0, 0, 0, 0));
+        btn6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ATM_System/icons/small.jpg"))); // NOI18N
+        btn6.setMargin(new java.awt.Insets(0, 0, 0, 0));
 
-        jButton11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ATM_System/icons/small.jpg"))); // NOI18N
-        jButton11.setMargin(new java.awt.Insets(0, 0, 0, 0));
+        btn7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ATM_System/icons/small.jpg"))); // NOI18N
+        btn7.setMargin(new java.awt.Insets(0, 0, 0, 0));
 
-        jButton12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ATM_System/icons/small.jpg"))); // NOI18N
-        jButton12.setMargin(new java.awt.Insets(0, 0, 0, 0));
+        btn8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ATM_System/icons/small.jpg"))); // NOI18N
+        btn8.setMargin(new java.awt.Insets(0, 0, 0, 0));
 
         javax.swing.GroupLayout jPanel8Layout = new javax.swing.GroupLayout(jPanel8);
         jPanel8.setLayout(jPanel8Layout);
@@ -322,23 +327,23 @@ public class ATM extends javax.swing.JFrame {
             .addGroup(jPanel8Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jButton9, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton10, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton11, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton12, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(btn5, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btn6, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btn7, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btn8, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap())
         );
         jPanel8Layout.setVerticalGroup(
             jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel8Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jButton9, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(btn5, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jButton10, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(btn6, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jButton11, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(btn7, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jButton12, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(btn8, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
@@ -373,7 +378,7 @@ public class ATM extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        jPanel3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        jPanel3.setBorder(javax.swing.BorderFactory.createLineBorder(null));
 
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
         jPanel3.setLayout(jPanel3Layout);
@@ -429,37 +434,41 @@ public class ATM extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+    private void btnnum2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnnum2ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton2ActionPerformed
+    }//GEN-LAST:event_btnnum2ActionPerformed
 
-    private void jButton17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton17ActionPerformed
+    private void btnnum7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnnum7ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton17ActionPerformed
+    }//GEN-LAST:event_btnnum7ActionPerformed
 
-    private void jButton21ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton21ActionPerformed
+    private void btnnumminusActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnnumminusActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton21ActionPerformed
+    }//GEN-LAST:event_btnnumminusActionPerformed
 
-    private void jButton22ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton22ActionPerformed
+    private void btnnum0ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnnum0ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton22ActionPerformed
+    }//GEN-LAST:event_btnnum0ActionPerformed
 
-    private void jButton23ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton23ActionPerformed
+    private void btnnumplusActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnnumplusActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton23ActionPerformed
+    }//GEN-LAST:event_btnnumplusActionPerformed
 
-    private void jButton24ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton24ActionPerformed
+    private void action4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_action4ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton24ActionPerformed
+    }//GEN-LAST:event_action4ActionPerformed
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+    private void btnnum1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnnum1ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton1ActionPerformed
+    }//GEN-LAST:event_btnnum1ActionPerformed
 
-    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
+    private void action1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_action1ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton4ActionPerformed
+    }//GEN-LAST:event_action1ActionPerformed
+
+    private void btn5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn5ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn5ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -497,30 +506,30 @@ public class ATM extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton10;
-    private javax.swing.JButton jButton11;
-    private javax.swing.JButton jButton12;
-    private javax.swing.JButton jButton13;
-    private javax.swing.JButton jButton14;
-    private javax.swing.JButton jButton15;
-    private javax.swing.JButton jButton16;
-    private javax.swing.JButton jButton17;
-    private javax.swing.JButton jButton18;
-    private javax.swing.JButton jButton19;
-    private javax.swing.JButton jButton2;
-    private javax.swing.JButton jButton20;
-    private javax.swing.JButton jButton21;
-    private javax.swing.JButton jButton22;
-    private javax.swing.JButton jButton23;
-    private javax.swing.JButton jButton24;
-    private javax.swing.JButton jButton3;
-    private javax.swing.JButton jButton4;
-    private javax.swing.JButton jButton5;
-    private javax.swing.JButton jButton6;
-    private javax.swing.JButton jButton7;
-    private javax.swing.JButton jButton8;
-    private javax.swing.JButton jButton9;
+    private javax.swing.JButton action1;
+    private javax.swing.JButton action2;
+    private javax.swing.JButton action3;
+    private javax.swing.JButton action4;
+    private javax.swing.JButton btn1;
+    private javax.swing.JButton btn2;
+    private javax.swing.JButton btn3;
+    private javax.swing.JButton btn4;
+    private javax.swing.JButton btn5;
+    private javax.swing.JButton btn6;
+    private javax.swing.JButton btn7;
+    private javax.swing.JButton btn8;
+    private javax.swing.JButton btnnum0;
+    private javax.swing.JButton btnnum1;
+    private javax.swing.JButton btnnum2;
+    private javax.swing.JButton btnnum3;
+    private javax.swing.JButton btnnum4;
+    private javax.swing.JButton btnnum5;
+    private javax.swing.JButton btnnum6;
+    private javax.swing.JButton btnnum7;
+    private javax.swing.JButton btnnum8;
+    private javax.swing.JButton btnnum9;
+    private javax.swing.JButton btnnumminus;
+    private javax.swing.JButton btnnumplus;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JPanel jPanel1;
