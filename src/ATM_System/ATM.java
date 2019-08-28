@@ -75,6 +75,19 @@ public class ATM extends pageneeded {
 
     @Override
     void pinpage(int i) {
+        
+            carda.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+            cardb.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+            cardc.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+            
+            if(i==0){
+            carda.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 0, 0)));
+            }else if(i==1){
+            cardb.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 0, 0)));
+            }else if(i==2){
+            cardc.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 0, 0)));
+            }
+            
         pin=0;
                 scrlab1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ATM_System/icons/whitebg.png"))); 
                 scrlab2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ATM_System/icons/whitebg.png"))); 
